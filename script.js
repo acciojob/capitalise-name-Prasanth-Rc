@@ -1,7 +1,5 @@
 //your JS code here. If required.
 function capitalise(){
-	let result = document.getElementById('fname').value;
-	document.getElementById('fname').innerText =result.toUpperCase(); 
+	var inputField = document.getElementById('fname');
+	inputField.value = inputField.value.toUpperCase(); 
 }
-
-capitalise();
